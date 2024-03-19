@@ -7,9 +7,9 @@ int main()
 
     
     int *ptr=&x;
-    cout<<*ptr<<"\n"; // value store in check address//Dereference Operator=Symbol=*
+    cout<<*ptr<<"\n"; // value present at the address stored in ptr//Dereference Operator=Symbol=*
     
  float *ptrf=&y;
-    cout<<*ptr<<"\n";//value store in check address
+    cout<<*ptr<<"\n";//value present at the address stored in ptr
     return 0;
 }
