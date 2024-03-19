@@ -8,12 +8,12 @@ int main()
     //create a pointer that can store address of x;
     // as x is an integer variable,so we need a pointer
     //that can store address of integer type
-    int *ptr=&x;// address store save
-    cout<<ptr<<"\n";
+    int *ptr=&x;// address stored inside ptr
+    cout<<ptr<<"\n";// address stored inside ptr
     //create a pointer that can store address of y;
     // as x is an integer variable,so we need a pointer
     //that can store address of float type
- float *ptrf=&y;//address store
-    cout<<ptr<<"\n";
+ float *ptrf=&y;
+    cout<<ptr<<"\n";// address stored inside ptr
     return 0;
 }
