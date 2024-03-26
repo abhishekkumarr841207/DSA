@@ -19,6 +19,7 @@ int main()
     cout<<"percentage Marks="<<percentage<<endl;
     average=total/5;
     cout<<"average="<<average<<endl;
+    
     //passing marks by every students
     if(percentage>=65)
     cout<<"first divison";
